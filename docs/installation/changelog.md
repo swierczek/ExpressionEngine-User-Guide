@@ -8,6 +8,39 @@
 -->
 # ExpressionEngine v7 Change Log
 
+# Version 7.5.2
+(Release: October 29, 2024)
+
+- **Contributors** 🙌
+<div class="max-w-7xl mx-autotext-center">
+<div class="space-y-8 sm:space-y-12">
+    <ul role="list" class="mx-auto grid grid-cols-2 gap-x-4 gap-y-1 sm:grid-cols-4 md:gap-x-6 lg:max-w-5xl lg:gap-x-8 lg:gap-y-1 xl:grid-cols-5">
+<li><div class="space-y-4 text-center"><img class="mx-auto h-20 w-20 rounded-full lg:w-24 lg:h-24" src="https://avatars.githubusercontent.com/u/752126?v=4" /><div class="space-y-2"><div class="text-xs font-medium lg:text-sm"><p class="mb-1">Yuri Salimovskiy</p><p class="text-indigo-600"><a href="https://github.com/ExpressionEngine/ExpressionEngine/commits?author=intoeetive" target="_BLANK">@intoeetive</a></p></div></div></div></li>
+<li><div class="space-y-4 text-center"><img class="mx-auto h-20 w-20 rounded-full lg:w-24 lg:h-24" src="https://avatars.githubusercontent.com/u/23382425?v=4" /><div class="space-y-2"><div class="text-xs font-medium lg:text-sm"><p class="mb-1">Yulyaswan</p><p class="text-indigo-600"><a href="https://github.com/ExpressionEngine/ExpressionEngine/commits?author=Yulyaswan" target="_BLANK">@Yulyaswan</a></p></div></div></div></li>
+<li><div class="space-y-4 text-center"><img class="mx-auto h-20 w-20 rounded-full lg:w-24 lg:h-24" src="https://avatars.githubusercontent.com/u/563996?v=4" /><div class="space-y-2"><div class="text-xs font-medium lg:text-sm"><p class="mb-1">Bryan Nielsen</p><p class="text-indigo-600"><a href="https://github.com/ExpressionEngine/ExpressionEngine/commits?author=bryannielsen" target="_BLANK">@bryannielsen</a></p></div></div></div></li>
+    </ul>
+</div>
+</div>
+
+**Enhancements** 🚀
+
+- Update Channel Form for better template engine support
+
+**Bug Fixes** 💃🐛
+
+- Resolved [#4538](https://github.com/ExpressionEngine/ExpressionEngine/issues/4538) where during 7.5.0 upgrade empty strings in date fields caused SQL error
+- Resolved [#4549](https://github.com/ExpressionEngine/ExpressionEngine/issues/4549) where member:has_role results were inconsistent
+- Resolved [#4535](https://github.com/ExpressionEngine/ExpressionEngine/issues/4535) where an odd number of toggle fields in a channel form could become unresponsive
+- Resolved an error where third-party fields couldn't merge settings
+- Resolved [#4352](https://github.com/ExpressionEngine/ExpressionEngine/issues/4352) where image URL was converted to BBCode even when field formatting was set to 'none'
+- Resolved [#4426](https://github.com/ExpressionEngine/ExpressionEngine/issues/4426) where a deprecation error was shown when clearing the cache using Redis driver
+- Resolved [#4502](https://github.com/ExpressionEngine/ExpressionEngine/issues/4502) where a PHP deprecation warning could have been generated in Pro Search
+- Resolved [#4417](https://github.com/ExpressionEngine/ExpressionEngine/issues/4417) where content reindex utilities were using same cache key
+- Resolved [#4515](https://github.com/ExpressionEngine/ExpressionEngine/issues/4515) where PHP notice was shown when output buffering wasn't active
+- Resolved [#4491](https://github.com/ExpressionEngine/ExpressionEngine/issues/4491) where a line of code was duplicated
+- Resolved [#4512](https://github.com/ExpressionEngine/ExpressionEngine/issues/4512) where there was an issue with multiple MiniGridInputs
+- Resolved [#4493](https://github.com/ExpressionEngine/ExpressionEngine/issues/4493) where PHP Deprecation was shown when using `show_overview` parameter in Structure
+
 # Version 7.5.1
 (Release: October 15, 2024)
 
