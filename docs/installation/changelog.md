@@ -29,7 +29,7 @@ NOTE: **Important:** This version includes important security updates.
 
 **Enhancements** 🚀
 
-- Added Image meta data stripping as an option (requires Image Magic when enabled)
+- Added image metadata stripping as an option on upload (requires Image Magic PHP extension when enabled)
 - Removed unnecessary white line at the bottom of the version area
 - Moblog Set the socket to non-blocking before checking the socket response
 - Added ability to pass filename through to channel set export in code
@@ -38,9 +38,9 @@ NOTE: **Important:** This version includes important security updates.
 - Resolved [#4569](https://github.com/ExpressionEngine/ExpressionEngine/issues/4569) where older versions of PHP might throw an error during Pro access checks
 - Resolved [#4559](https://github.com/ExpressionEngine/ExpressionEngine/issues/4559) where template export could raise a PHP warning
 - Resolved [#4543](https://github.com/ExpressionEngine/ExpressionEngine/issues/4543) where a PHP notice could be shown during relationship sorting
-- Resolved [#4511](https://github.com/ExpressionEngine/ExpressionEngine/issues/4511) where PHP warning was shown is the cache file was already cleared
+- Resolved [#4511](https://github.com/ExpressionEngine/ExpressionEngine/issues/4511) where PHP warning was shown in the cache file was already cleared
 - Resolved [#4504](https://github.com/ExpressionEngine/ExpressionEngine/issues/4504) where POSTed Channel Form values were sometimes not populated correctly in case of validation error
-- Resolved [#4489](https://github.com/ExpressionEngine/ExpressionEngine/issues/4489) where Upload Location filter in the File Picker did not work correctly after going into subdirectory
+- Resolved [#4489](https://github.com/ExpressionEngine/ExpressionEngine/issues/4489) where Upload Location filter in the File Picker did not work correctly after going into a subdirectory
 - Fixed [icon position](https://github.com/ExpressionEngine/ExpressionEngine/pull/4541) for required field in grid field body
 - Fixed frontedit js error (contentWindow is undefined)
 
