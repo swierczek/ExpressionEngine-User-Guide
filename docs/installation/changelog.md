@@ -25,13 +25,13 @@ NOTE: **Important:** This version includes important security updates.
 </div>
 
 **Enhancements** 🚀
-- Add additional filter to file upload
+- Add additional file upload filter
 
 **Bug Fixes** 💃🐛
-- Resolved [#4583](https://github.com/ExpressionEngine/ExpressionEngine/pull/4592) where cloning an entry moved the revision history
+- Resolved [#4583](https://github.com/ExpressionEngine/ExpressionEngine/pull/4592) where cloning an entry moved the revision history to the cloned entry
 - Resolved [#4589](https://github.com/ExpressionEngine/ExpressionEngine/pull/4589) where there was an error removing a field from a Fluid field that was also used in a field group
-- Resolved [#4500](https://github.com/ExpressionEngine/ExpressionEngine/pull/4500) where "New entry" dropdown was shown even when limit of entries was reached
-- Fix PHP deprecation in file module
+- Resolved [#4500](https://github.com/ExpressionEngine/ExpressionEngine/pull/4500) where the "New entry" dropdown was shown even when the limit of entries was reached
+- Fix PHP deprecation in the file module
 
 # Version 7.5.3
 (Release: November 6th, 2024)
