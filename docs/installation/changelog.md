@@ -8,6 +8,35 @@
 -->
 # ExpressionEngine v7 Change Log
 
+# Version 7.5.5
+(Release: November 20th, 2024)
+
+<div class="max-w-7xl mx-autotext-center">
+<div class="space-y-8 sm:space-y-12">
+    <ul role="list" class="mx-auto grid grid-cols-2 gap-x-4 gap-y-1 sm:grid-cols-4 md:gap-x-6 lg:max-w-5xl lg:gap-x-8 lg:gap-y-1 xl:grid-cols-5">
+<li><div class="space-y-4 text-center"><img class="mx-auto h-20 w-20 rounded-full lg:w-24 lg:h-24" src="https://avatars.githubusercontent.com/u/23382425?v=4" /><div class="space-y-2"><div class="text-xs font-medium lg:text-sm"><p class="mb-1">Yulya Lebed</p><p class="text-indigo-600"><a href="https://github.com/ExpressionEngine/ExpressionEngine/commits?author=Yulyaswan" target="_BLANK">@Yulyaswan</a></p></div></div></div></li>
+<li><div class="space-y-4 text-center"><img class="mx-auto h-20 w-20 rounded-full lg:w-24 lg:h-24" src="https://avatars.githubusercontent.com/u/563996?v=4" /><div class="space-y-2"><div class="text-xs font-medium lg:text-sm"><p class="mb-1">Bryan Nielsen</p><p class="text-indigo-600"><a href="https://github.com/ExpressionEngine/ExpressionEngine/commits?author=bryannielsen" target="_BLANK">@bryannielsen</a></p></div></div></div></li>
+<li><div class="space-y-4 text-center"><img class="mx-auto h-20 w-20 rounded-full lg:w-24 lg:h-24" src="https://avatars.githubusercontent.com/u/752126?v=4" /><div class="space-y-2"><div class="text-xs font-medium lg:text-sm"><p class="mb-1">Yuri Salimovskiy</p><p class="text-indigo-600"><a href="https://github.com/ExpressionEngine/ExpressionEngine/commits?author=intoeetive" target="_BLANK">@intoeetive</a></p></div></div></div></li>
+<li><div class="space-y-4 text-center"><img class="mx-auto h-20 w-20 rounded-full lg:w-24 lg:h-24" src="https://avatars.githubusercontent.com/u/11818941?v=4" /><div class="space-y-2"><div class="text-xs font-medium lg:text-sm"><p class="mb-1">Matt Johnson</p><p class="text-indigo-600"><a href="https://github.com/ExpressionEngine/ExpressionEngine/commits?author=matthewjohns0n" target="_BLANK">@matthewjohns0n</a></p></div></div></div></li>
+    </ul>
+</div>
+</div>
+
+**Enhancements** 🚀
+
+- Added Fluid Field variables `count_group` and `index_group` for use with Field Groups [#4594](https://github.com/ExpressionEngine/ExpressionEngine/issues/4594)
+
+**Bug Fixes** 💃🐛
+
+- Resolved [#4336](https://github.com/ExpressionEngine/ExpressionEngine/issues/4336), [#4345](https://github.com/ExpressionEngine/ExpressionEngine/issues/4345) where RTE has CSS issue
+- Resolved [#3384](https://github.com/ExpressionEngine/ExpressionEngine/issues/3384) where Reassign Entries dialog did not populate when deleting a member
+- Resolved [#4451](https://github.com/ExpressionEngine/ExpressionEngine/issues/4451) where "Resend activation email" link was not working correctly
+- Resolved [#4468](https://github.com/ExpressionEngine/ExpressionEngine/issues/4468) where link to list all members in a role was not correct on Roles page
+- Resolved [#4590](https://github.com/ExpressionEngine/ExpressionEngine/issues/4590) where the Channel Calendar tag results could be incorrect
+- Resolved [#4575](https://github.com/ExpressionEngine/ExpressionEngine/issues/4575) where Fluid Field loop variables could be incorrect with individual fields
+- Resolved [#4588](https://github.com/ExpressionEngine/ExpressionEngine/issues/4588) where copying field code would not work when CP session type was set to session only
+- Resolved an issue with deleting a member through modal window
+
 # Version 7.5.4
 (Release: November 14th, 2024)
 
@@ -28,9 +57,9 @@ NOTE: **Important:** This version includes important security updates.
 - Add additional file upload filter
 
 **Bug Fixes** 💃🐛
-- Resolved [#4583](https://github.com/ExpressionEngine/ExpressionEngine/pull/4592) where cloning an entry moved the revision history to the cloned entry
-- Resolved [#4589](https://github.com/ExpressionEngine/ExpressionEngine/pull/4589) where there was an error removing a field from a Fluid field that was also used in a field group
-- Resolved [#4500](https://github.com/ExpressionEngine/ExpressionEngine/pull/4500) where the "New entry" dropdown was shown even when the limit of entries was reached
+- Resolved [#4583](https://github.com/ExpressionEngine/ExpressionEngine/issues/4583) where cloning an entry moved the revision history to the cloned entry
+- Resolved [#4589](https://github.com/ExpressionEngine/ExpressionEngine/issues/4589) where there was an error removing a field from a Fluid field that was also used in a field group
+- Resolved [#4500](https://github.com/ExpressionEngine/ExpressionEngine/issues/4500) where the "New entry" dropdown was shown even when the limit of entries was reached
 - Fix PHP deprecation in the file module
 
 # Version 7.5.3
