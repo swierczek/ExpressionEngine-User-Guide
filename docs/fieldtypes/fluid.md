@@ -189,6 +189,12 @@ The total number of fields regardless of tag output criteria.
 
 Additionally, the following variable are available **when using custom field groups**:
 
+### `count_group`
+
+    {fluid_content:count_group}
+
+The "count" of the current field group starting at 1.
+
 ### `count_in_group`
 
     {fluid_content:count_in_group}
@@ -200,6 +206,12 @@ The "count" out of the fields being displayed in a field group. If five fields a
     {fluid_content:first_in_group}
 
 True, if the current field is the first one in the current field group.
+
+### `index_group`
+
+    {fluid_content:index_group}
+
+The "index" of the current field group starting at 0.
 
 ### `index_in_group`
 
