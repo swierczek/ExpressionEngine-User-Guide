@@ -8,6 +8,41 @@
 -->
 # ExpressionEngine v7 Change Log
 
+# Version 7.5.6
+(Release: December 10th, 2024)
+
+<div class="max-w-7xl mx-autotext-center">
+<div class="space-y-8 sm:space-y-12">
+    <ul role="list" class="mx-auto grid grid-cols-2 gap-x-4 gap-y-1 sm:grid-cols-4 md:gap-x-6 lg:max-w-5xl lg:gap-x-8 lg:gap-y-1 xl:grid-cols-5">
+<li><div class="space-y-4 text-center"><img class="mx-auto h-20 w-20 rounded-full lg:w-24 lg:h-24" src="https://avatars.githubusercontent.com/u/752126?v=4" /><div class="space-y-2"><div class="text-xs font-medium lg:text-sm"><p class="mb-1">Yuri Salimovskiy</p><p class="text-indigo-600"><a href="https://github.com/ExpressionEngine/ExpressionEngine/commits?author=intoeetive" target="_BLANK">@intoeetive</a></p></div></div></div></li>
+<li><div class="space-y-4 text-center"><img class="mx-auto h-20 w-20 rounded-full lg:w-24 lg:h-24" src="https://avatars.githubusercontent.com/u/11818941?v=4" /><div class="space-y-2"><div class="text-xs font-medium lg:text-sm"><p class="mb-1">Matt Johnson</p><p class="text-indigo-600"><a href="https://github.com/ExpressionEngine/ExpressionEngine/commits?author=matthewjohns0n" target="_BLANK">@matthewjohns0n</a></p></div></div></div></li>
+<li><div class="space-y-4 text-center"><img class="mx-auto h-20 w-20 rounded-full lg:w-24 lg:h-24" src="https://avatars.githubusercontent.com/u/563996?v=4" /><div class="space-y-2"><div class="text-xs font-medium lg:text-sm"><p class="mb-1">Bryan Nielsen</p><p class="text-indigo-600"><a href="https://github.com/ExpressionEngine/ExpressionEngine/commits?author=bryannielsen" target="_BLANK">@bryannielsen</a></p></div></div></div></li>
+    </ul>
+</div>
+</div>
+
+**Enhancements** 🚀
+
+- Added dd.mm.yyyy date format; [#4540](https://github.com/ExpressionEngine/ExpressionEngine/issues/4540)
+- Set correct HTTP header when accessing invalid action URLs; [#4571](https://github.com/ExpressionEngine/ExpressionEngine/issues/4571)
+- Show icon in template manager if caching is enabled; [#4578](https://github.com/ExpressionEngine/ExpressionEngine/issues/4578)
+- Improve member tag support for multiple template engines
+
+**Bug Fixes** 💃🐛
+
+- Resolved [#4617](https://github.com/ExpressionEngine/ExpressionEngine/issues/4617) where applying transformation to non-existing image would prevent a page from displaying
+- Resolved [#4544](https://github.com/ExpressionEngine/ExpressionEngine/issues/4544) where frontend editing did not work if field was moved to different layout tab
+- Resolved [#4564](https://github.com/ExpressionEngine/ExpressionEngine/issues/4564) where deprecated `utf8_decode` function was used
+- Resolved [#4525](https://github.com/ExpressionEngine/ExpressionEngine/issues/4525) where selecting specific date in filter shows error when paginating
+- Resolved [#4599](https://github.com/ExpressionEngine/ExpressionEngine/issues/4599) where symbols in field names were rendered as HTML entities
+- Resolved [#4464](https://github.com/ExpressionEngine/ExpressionEngine/issues/4464) where French characters were encoded on Field name and/or Channel name
+- Resolved [#4408](https://github.com/ExpressionEngine/ExpressionEngine/issues/4408) where Channels with Latin characters transformed to entities in Channel's list name
+- Resolved an issue where entry titles with certain characters did not display correctly
+- Resolved an issue where incorrect error was shown during installation with missing config file
+- Resolved an issue where the default template engine was not used when copying field codes
+- Resolved an issue where the tmpfile fallback is called
+- Resolved an issue with false positives in file upload checks
+
 # Version 7.5.5
 (Release: November 20th, 2024)
 
