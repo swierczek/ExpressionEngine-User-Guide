@@ -15,19 +15,32 @@ The ExpressionEngine core defines a variety of constants to ensure consistency i
 
 ## Path Constants
 
-- `SELF` - Name of the admin file (e.g. `admin.php`)
-- `FCPATH` - Path to the admin file (e.g. `/var/www/html/website.com/public/`)
-- `SYSDIR` - Name of the system directory (e.g. `system`)
-- `SYSPATH` - Path of the system directory (e.g. `/var/www/html/website.com/system/`)
-- `APPPATH` and `BASEPATH` - Path to the `system/ee/legacy` directory (e.g. `/var/www/html/website.com/system/ee/legacy/`)
-- `PATH_ADDONS` - Path to the first-party add-ons directory (e.g. `/var/www/html/website.com/system/ee/ExpressionEngine/Addons/`)
-- `PATH_THEMES` - Path to the themes directory (e.g. `/var/www/html/website.com/public/themes/ee/`)
-- `PATH_MBR_THEMES` - Path to the member themes directory (e.g. `/var/www/html/website.com/public/themes/ee/member/`)
-- `PATH_CP_GBL_IMG` - Path to the global image directory (e.g. `https://website.com/themes/ee/asset/img/`)
-- `PATH_JAVASCRIPT` - Path to the javascript directory (e.g. `/var/www/html/website.com/public/themes/ee/asset/javascript/compressed/`)
-- `PATH_JQUERY` - Path to the jQuery directory. (e.g. `/var/www/html/website.com/public/themes/ee/asset/javascript/compressed/jquery/`)
-- `PATH_THIRD` - Path to third-party add-ons directory (e.g. `/var/www/html/website.com/system/user/addons/`)
-- `PATH_THIRD_THEMES` - Path to the third-party themes directory (e.g. `/var/www/html/website.com/public/themes/user/`)
+- `SELF` - Name of the admin file
+    - Example: `admin.php`
+- `FCPATH` - Path to the admin file
+    - Example: `/var/www/html/website.com/public/`
+- `SYSDIR` - Name of the system directory
+    - Example: `system`
+- `SYSPATH` - Path of the system directory
+    - Example: `/var/www/html/website.com/system/`
+- `APPPATH` and `BASEPATH` - Path to the `system/ee/legacy` directory
+    - Example: `/var/www/html/website.com/system/ee/legacy/`
+- `PATH_ADDONS` - Path to the first-party add-ons directory
+    - Example: `/var/www/html/website.com/system/ee/ExpressionEngine/Addons/`
+- `PATH_THEMES` - Path to the themes directory
+    - Example: `/var/www/html/website.com/public/themes/ee/`
+- `PATH_MBR_THEMES` - Path to the member themes directory
+    - Example: `/var/www/html/website.com/public/themes/ee/member/`
+- `PATH_CP_GBL_IMG` - Path to the global image directory
+    - Example: `https://website.com/themes/ee/asset/img/`
+- `PATH_JAVASCRIPT` - Path to the javascript directory
+    - Example: `/var/www/html/website.com/public/themes/ee/asset/javascript/compressed/`
+- `PATH_JQUERY` - Path to the jQuery directory
+    - Example: `/var/www/html/website.com/public/themes/ee/asset/javascript/compressed/jquery/`
+- `PATH_THIRD` - Path to third-party add-ons directory
+    - Example: `/var/www/html/website.com/system/user/addons/`
+- `PATH_THIRD_THEMES` - Path to the third-party themes directory
+    - Example: `/var/www/html/website.com/public/themes/user/`
 
 ## Version Constants
 
